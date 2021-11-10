@@ -30,3 +30,14 @@ void twoCharacterTest(String[] list, String text) {
     println("Fails: ingen resultater");
   }
 }
+
+void asteriksTest(String[] list, String text) {
+  println("-Running Asteriks Test-");
+  String[] result = search(list, text);
+  
+  if(result.length == list.length){
+    println("success");
+  } else {
+    println("fails");
+  }
+}
