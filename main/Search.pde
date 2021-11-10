@@ -1,6 +1,8 @@
 String[] search(String[] list, String text) {
   String[] resultat = new String[0];
-  if (text.length() >= 2) {
+  if(text.equals("*")){
+    resultat = list;
+  } else if (text.length() >= 2) {
     for (String city : list) {
       if (city.contains(text)) {
         resultat = updateArray(resultat, city);

@@ -4,6 +4,7 @@ void runAllTests() {
   twoCharacterTest(cities, "VA");
   twoCharacterTest(cities, "New York City");
   twoCharacterTest(cities, "L");
+  asteriksTest(cities,"*");
 }
 
 void oneCharacterTest(String[] list, String text) {
