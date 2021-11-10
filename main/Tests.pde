@@ -1,6 +1,7 @@
 void runAllTests() {
   oneCharacterTest(cities, "D");
-  twoCharacterTest(cities, "Lo");
+  twoCharacterTest(cities, "ape");
+  twoCharacterTest(cities, "VA");
   twoCharacterTest(cities, "New York City");
   twoCharacterTest(cities, "L");
 }
@@ -26,6 +27,6 @@ void twoCharacterTest(String[] list, String text) {
   } else if (result.length > 0) {
     println("Success");
   } else {
-    println("Fails");
+    println("Fails: ingen resultater");
   }
 }
